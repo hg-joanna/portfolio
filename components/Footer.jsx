@@ -66,7 +66,7 @@ export default function Footer() {
                 </h2>
 
                 <p className="footer-description">
-                    Feel free to reach out 😊
+                    Feel free to reach out!
                 </p>
 
                 <div className="footer-socials">
