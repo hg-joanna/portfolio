@@ -85,6 +85,44 @@ export default function Navbar() {
         setMenuOpen(false);
     };
 
+    const handleNavigation = (href) => {
+        closeMenu();
+
+        const target = document.querySelector(href);
+
+        if (target) {
+            target.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+
+            // Remove the hash from the URL
+            window.history.replaceState(
+                null,
+                "",
+                window.location.pathname
+            );
+        }
+    };
+
+    const handleHome = (event) => {
+        event.preventDefault();
+
+        closeMenu();
+
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+
+        // Remove any existing hash from the URL
+        window.history.replaceState(
+            null,
+            "",
+            window.location.pathname
+        );
+    };
+
     return (
         <header className="navbar">
 
@@ -93,7 +131,7 @@ export default function Navbar() {
             <a
                 href="#home"
                 className="navbar-logo"
-                onClick={closeMenu}
+                onClick={handleHome}
             >
                 JH
             </a>
@@ -107,6 +145,10 @@ export default function Navbar() {
                     <a
                         href={link.href}
                         key={link.name}
+                        onClick={(event) => {
+                            event.preventDefault();
+                            handleNavigation(link.href);
+                        }}
                     >
                         {link.name}
                     </a>
@@ -156,7 +198,9 @@ export default function Navbar() {
                         : "Open navigation menu"
                 }
                 aria-expanded={menuOpen}
-                onClick={() => setMenuOpen((previous) => !previous)}
+                onClick={() =>
+                    setMenuOpen((previous) => !previous)
+                }
             >
                 {menuOpen ? "×" : "☰"}
             </button>
@@ -175,7 +219,10 @@ export default function Navbar() {
                     <a
                         href={link.href}
                         key={link.name}
-                        onClick={closeMenu}
+                        onClick={(event) => {
+                            event.preventDefault();
+                            handleNavigation(link.href);
+                        }}
                     >
                         {link.name}
                     </a>
