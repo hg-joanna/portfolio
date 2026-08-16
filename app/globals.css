@@ -787,6 +787,7 @@ EXPLORE MORE PROJECTS
 
     background: transparent;
     color: white;
+    opacity: 0.8;
 
     cursor: pointer;
 
@@ -794,10 +795,16 @@ EXPLORE MORE PROJECTS
     font-weight: 400;
 
     text-align: center;
+
+    transition:
+        opacity 0.25s ease,
+        transform 0.25s ease;
 }
 
 .explore-projects-button:hover {
-    opacity: 0.8;
+    opacity: 1;
+
+    transform: translateY(-3px);
 }
 
 .explore-arrow {
@@ -806,11 +813,20 @@ EXPLORE MORE PROJECTS
     font-size: 30px;
     line-height: 1;
 
-    transition: transform 0.4s ease;
+    transition:
+        transform 0.4s ease;
+}
+
+.explore-projects-button:hover .explore-arrow:not(.open) {
+    transform: translateY(4px);
 }
 
 .explore-arrow.open {
     transform: rotate(180deg);
+}
+
+.explore-projects-button:hover .explore-arrow.open {
+    transform: rotate(180deg) translateY(-3px);
 }
 
 

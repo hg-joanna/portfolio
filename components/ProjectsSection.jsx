@@ -34,7 +34,7 @@ The image and link text will not be clickable/shown.
 const featuredProjects = [
     {
         title: "KAISAKA Financial Management Website",
-        tags: "JavaScript • Handlebars • CSS • QA",
+        tags: "JavaScript • Handlebars • CSS",
         image: "/projects/kaisaka.png",
         link: "https://kaisaka-cssweng.vercel.app/login",
         linkType: "website",
