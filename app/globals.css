@@ -1136,7 +1136,7 @@ FRONT + BACK
 
     inset: 0;
 
-    padding: 20px;
+    padding: 20px 24px;
 
     display: flex;
     flex-direction: column;
@@ -1163,9 +1163,16 @@ FRONT
 .trait-title {
     margin: 0;
 
+    max-width: 100%;
+
+    padding-right: 8px;
+
     font-size: 21px;
     font-weight: 700;
     line-height: 1.1;
+
+    overflow-wrap: normal;
+    word-break: normal;
 }
 
 .trait-short {
@@ -3198,11 +3205,12 @@ MOBILE
 
     .trait-card-front,
     .trait-card-back {
-        padding: 18px;
+        padding: 18px 20px;
     }
 
     .trait-title {
         font-size: 19px;
+        padding-right: 6px;
     }
 
     .trait-short {
@@ -3562,11 +3570,12 @@ VERY SMALL PHONES
 
     .trait-card-front,
     .trait-card-back {
-        padding: 18px;
+        padding: 18px 20px;
     }
 
     .trait-title {
         font-size: 18px;
+        padding-right: 6px;
     }
 
     .trait-short {
