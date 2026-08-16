@@ -1776,10 +1776,6 @@ SKILL CARD
     transition: transform 0.2s ease;
 }
 
-.skill-item:hover {
-    transform: translateY(-4px);
-}
-
 /* =========================================================
 SKILL LOGO
 ========================================================= */
@@ -1815,10 +1811,6 @@ SKILL LOGO
 
     transition:
         transform 0.2s ease;
-}
-
-.skill-item:hover .skill-logo i {
-    transform: scale(1.08);
 }
 
 .skill-item span {
