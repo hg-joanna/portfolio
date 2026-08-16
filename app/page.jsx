@@ -267,7 +267,7 @@ const certificates = [
     {
         title: "Electronic Arts Software Engineering Job Simulation - Forage",
         year: "2025",
-        logo: "/certificates/EA.png",
+        logo: "/certificates/ea.png",
         viewLink: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/j43dGscQHtJJ57N54/a77WE3de8qrxWferQ_j43dGscQHtJJ57N54_mv64eWw4xGj5AKPYJ_1746087194827_completion_certificate.pdf"
     },
     {
