@@ -61,8 +61,8 @@ const featuredProjects = [
         title: "Portfolio Website",
         tags: "Next.js • React • CSS",
         image: "/projects/portfolio.png",
-        link: "",
-        linkType: "",
+        link: "https://joanna-hong.vercel.app/",
+        linkType: "github",
     },
 ];
 
