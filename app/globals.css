@@ -720,13 +720,6 @@ FEATURED PROJECT INFO
     flex: 1;
 }
 
-.featured-project-number {
-    margin-bottom: 10px;
-
-    font-size: 14px;
-    font-weight: 700;
-}
-
 .featured-project-info h3 {
     margin: 0 0 8px;
 
@@ -881,14 +874,6 @@ SMALL ADDITIONAL PROJECT CARDS
     flex: 1;
 }
 
-.project-preview-number {
-    display: block;
-
-    margin-bottom: 10px;
-
-    font-size: 14px;
-    font-weight: 700;
-}
 
 .project-preview-info h3 {
     margin: 0 0 9px;
@@ -3078,6 +3063,7 @@ MOBILE
 
         font-size: 16px;
         line-height: 1.1;
+        font-weight: 600;
     }
 
     .featured-project-info p {
@@ -3131,6 +3117,7 @@ MOBILE
         font-size: 16px;
 
         line-height: 1.15;
+        font-weight: 600;
     }
 
     .project-preview-info p {
@@ -3611,6 +3598,7 @@ VERY SMALL PHONES
         font-size: 15px;
 
         line-height: 1.1;
+        font-weight: 600;
     }
 
     .featured-project-info p {
@@ -3654,6 +3642,7 @@ VERY SMALL PHONES
         font-size: 15px;
 
         line-height: 1.15;
+        font-weight: 600;
     }
 
     .project-preview-info p {

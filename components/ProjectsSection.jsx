@@ -33,7 +33,6 @@ The image and link text will not be clickable/shown.
 */
 const featuredProjects = [
     {
-        number: "01",
         title: "KAISAKA Financial Management Website",
         tags: "JavaScript • Handlebars • CSS • QA",
         image: "/projects/kaisaka.png",
@@ -41,7 +40,6 @@ const featuredProjects = [
         linkType: "website",
     },
     {
-        number: "02",
         title: "Laboratory Reservation System",
         tags: "Java • OOP • Testing",
         image: "/projects/lab.png",
@@ -49,7 +47,6 @@ const featuredProjects = [
         linkType: "github",
     },
     {
-        number: "03",
         title: "Jungle King Game",
         tags: "Java • Swing • OOP • GUI",
         image: "/projects/junglek.png",
@@ -57,7 +54,6 @@ const featuredProjects = [
         linkType: "github",
     },
     {
-        number: "04",
         title: "Portfolio Website",
         tags: "Next.js • React • CSS",
         image: "/projects/portfolio.png",
@@ -88,15 +84,13 @@ The image and link text will not be clickable/shown.
 */
 const additionalProjects = [
     {
-        number: "05",
         title: "Vending Machine Database",
-        tags: "Java • MyQL",
+        tags: "Java • MySQL",
         image: "/projects/vending.png",
         link: "https://github.com/hg-joanna/vendingMachineDB",
         linkType: "github",
     },
     {
-        number: "06",
         title: "Sokobots Sokoban Puzzle",
         tags: "Java • OOP • Algorithms",
         image: "/projects/sokobot.png",
@@ -104,7 +98,6 @@ const additionalProjects = [
         linkType: "github",
     },
     {
-        number: "07",
         title: "Customer Service Chatbot",
         tags: "Python • RAG • Gradio",
         image: "/projects/customer.png",
@@ -112,7 +105,6 @@ const additionalProjects = [
         linkType: "website",
     },
     {
-        number: "08",
         title: "Adventure World",
         tags: "Python • Prolog",
         image: "/projects/adventure.png",
@@ -120,7 +112,6 @@ const additionalProjects = [
         linkType: "github",
     },
     {
-        number: "09",
         title: "Security Management",
         tags: "Java",
         image: "/projects/sec.png",
@@ -328,7 +319,6 @@ export default function ProjectsSection() {
 
                     {featuredProjects.map((project) => (
                         <ProjectCard
-                            key={project.number}
                             project={project}
                         />
                     ))}
