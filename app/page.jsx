@@ -274,7 +274,7 @@ const certificates = [
         title: "Lean Six Sigma White Belt - Management & Strategy Institute",
         year: "2025",
         logo: "/certificates/mgt.png",
-        viewLink: ""
+        viewLink: "https://drive.google.com/drive/folders/15ys0gaGu0Dyxu-P0FnBWQsSZzz7hRXRr?usp=sharing"
     },
 ];
 
