@@ -2794,6 +2794,10 @@ TABLET
         grid-template-columns: 1fr;
     }
 
+    .assessment-key-content.open {
+        max-height: 800px;
+    }
+
 
     /* =====================================================
     TAKEAWAY
@@ -3499,8 +3503,7 @@ MOBILE
 
     .footer-email {
         font-size: 14px;
-
-        word-break: break-word;
+        white-space: nowrap;
     }
 
     .footer-bottom {
