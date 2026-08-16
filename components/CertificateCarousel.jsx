@@ -92,21 +92,6 @@ export default function CertificateCarousel({
 
             </div>
 
-
-            {/* SCROLL INDICATOR */}
-
-            <div className="certificate-scroll-indicator">
-
-                <span>
-                    Scroll to explore
-                </span>
-
-                <span className="certificate-scroll-arrow">
-                    ↓
-                </span>
-
-            </div>
-
         </div>
 
     );

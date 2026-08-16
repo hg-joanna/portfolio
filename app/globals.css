@@ -2186,43 +2186,6 @@ CERTIFICATE SCROLL FADE
 
 
 /* =========================================================
-CERTIFICATE SCROLL INDICATOR
-========================================================= */
-
-.certificate-scroll-indicator {
-    position: absolute;
-
-    right: 96px;
-
-    bottom: 18px;
-
-    z-index: 4;
-
-    display: flex;
-
-    align-items: center;
-
-    gap: 8px;
-
-    color: #666;
-
-    font-size: 14px;
-
-    font-weight: 700;
-
-    letter-spacing: 0.08em;
-
-    text-transform: uppercase;
-
-    pointer-events: none;
-}
-
-.certificate-scroll-arrow {
-    font-size: 18px;
-}
-
-
-/* =========================================================
 FOOTER
 ========================================================= */
 
@@ -3744,14 +3707,6 @@ VERY SMALL PHONES
 
     .certificate-view-arrow {
         font-size: 16px;
-    }
-
-    /* Keep the scroll indicator aligned
-    with the certificate carousel margin */
-    .certificate-scroll-indicator {
-        right: var(--cert-margin);
-
-        font-size: 14px;
     }
 
 
