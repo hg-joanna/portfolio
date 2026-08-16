@@ -878,6 +878,7 @@ SMALL ADDITIONAL PROJECT CARDS
 
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .project-preview-number {
