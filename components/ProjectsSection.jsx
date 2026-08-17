@@ -57,7 +57,7 @@ const featuredProjects = [
         title: "Portfolio Website",
         tags: "Next.js • React • CSS",
         image: "/projects/portfolio.png",
-        link: "https://joanna-hong.vercel.app/",
+        link: "https://github.com/hg-joanna/portfolio",
         linkType: "github",
     },
 ];
@@ -117,6 +117,20 @@ const additionalProjects = [
         image: "/projects/sec.png",
         link: "https://github.com/hg-joanna/Security-SVCS",
         linkType: "github",
+    },
+    {
+        title: "Filipino household Income & Classification",
+        tags: "Colab • Pandas • Python • Scikit-learn",
+        image: "/projects/filo.png",
+        link: "https://colab.research.google.com/drive/1OiOGbUBRuofuQs1UAE3RlVwUhHbf2jWF?usp=sharing",
+        linkType: "website",
+    },
+    {
+        title: "Dementia Dataset Analysis",
+        tags: "Colab • Pandas • Python • Seaborn",
+        image: "/projects/dementia.png",
+        link: "https://colab.research.google.com/drive/1kknMbJgCDso7cS-G6AXA4eYirYGSIfAY?usp=sharing",
+        linkType: "website",
     },
 ];
 
