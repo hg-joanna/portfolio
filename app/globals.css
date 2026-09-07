@@ -575,7 +575,7 @@ ABOUT ME TEXT
 
 .about-text {
     width: 100%;
-    max-width: 1100px;
+    max-width: none;
 }
 
 .about-text p {
