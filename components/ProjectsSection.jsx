@@ -132,6 +132,13 @@ const additionalProjects = [
         link: "https://colab.research.google.com/drive/1kknMbJgCDso7cS-G6AXA4eYirYGSIfAY?usp=sharing",
         linkType: "website",
     },
+    {
+        title: "Skincare Dataset Analysis",
+        tags: "Python • Seaborn • Numpy •  Matplotlib • Gradio",
+        image: "/projects/skincare.png",
+        link: "https://github.com/hg-joanna/skincare-ingredients",
+        linkType: "github",
+    },
 ];
 
 
