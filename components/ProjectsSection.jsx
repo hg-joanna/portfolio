@@ -33,11 +33,11 @@ The image and link text will not be clickable/shown.
 */
 const featuredProjects = [
     {
-        title: "KAISAKA Financial Management Website",
+        title: "KAISAKA Financial Management Website (Private)",
         tags: "JavaScript • Handlebars • CSS",
         image: "/projects/kaisaka.png",
-        link: "https://kaisaka-cssweng.vercel.app/login",
-        linkType: "website",
+        link: "",
+        linkType: "",
     },
     {
         title: "Laboratory Reservation System",
